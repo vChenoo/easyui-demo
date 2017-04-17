@@ -1,0 +1,18 @@
+[
+	{
+		"id" : "01",
+		"iconCls" : "icon-ok",
+		"text" : "主诉"
+	},
+	{
+		"id" : "01",
+		"iconCls" : "icon-ok",
+		"text" : "既往史"
+	},
+	{
+		"id" : "01",
+		"iconCls" : "icon-ok",
+		"text" : "病历补充"
+	}
+	
+]
