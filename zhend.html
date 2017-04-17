@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link  href="easyui/themes/default/easyui.css" type="text/css" rel="stylesheet"/>
+	<link  href="easyui/themes/icon.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+	<!--<a href="###" class="easyui-linkbutton" data-options="title:'查询',iconCls:'icon-add',onClick:function(){$(this).find('input').click();}">-->
+		<input id="xxx" type="submit" value="新增" style="border:0;background-color:transparent;padding:0;margin:0;"/>
+	<!--</a>-->
+	<div id="zhenD" style="padding:5px;">
+		<div style="margin-bottom:5px;">
+			<a href="#" class="easyui-linkbutton" iconCls="icon-add" plain="true">新增</a>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-search" plain="true">查询</a>
+		</div>
+	</div>
+	<table id="zhenDtb"></table>
+	<div id="edit" class="easyui-layout" style="height:480px;display:none;">
+		<div data-options="region:'west',split:true" title="West" style="width:180px;">
+			<ul id="tt"></ul>
+		</div>
+		<div data-options="region:'center'">
+			<div id="editBar" style="padding:5px;">
+				<div style="margin-bottom:5px;">
+					<a href="#" class="easyui-linkbutton" iconCls="icon-add" plain="true">新增</a>
+					<a href="#" class="easyui-linkbutton" iconCls="icon-save" plain="true">保存</a>
+					<a href="#" class="easyui-linkbutton" iconCls="icon-add" plain="true">保存并新增</a>
+					<a href="#" class="easyui-linkbutton" iconCls="icon-ok" plain="true">保存并返回</a>
+					<a href="#" class="easyui-linkbutton" iconCls="icon-back" plain="true">返回</a>
+				</div>
+			</div>
+			<table id="editTb"></table>
+		</div>
+	</div>
+	
+	<script src="jquery-1.8.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="easyui/jquery.easyui.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="easyui/easyui-lang-zh_CN.js" type="text/javascript" charset="utf-8"></script>
+	<script src="zhend.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
